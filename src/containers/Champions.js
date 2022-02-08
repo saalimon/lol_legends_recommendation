@@ -24,7 +24,6 @@ function Champions() {
                 let url = 'https://ddragon.leagueoflegends.com/cdn/12.3.1/img/sprite/'+champion[key]['image']['sprite']
                 let x  = champion[key]['image']['x']
                 let y =  champion[key]['image']['y']
-                console.log(url)
                 return (<div className="champion" style={{
                                                     width: '75px',
                                                     height: '75px',

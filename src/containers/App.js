@@ -38,7 +38,7 @@ function App() {
           <Champions />
         </main>
         <footer className="container">
-            <small>Built with <a href="https://picocss.com">Pico</a> ✖ <a href="https://github.com/saalimon">Saalimon</a></small>
+            <small>Built with <a href="https://reactjs.org/">React</a> ✖ <a href="https://picocss.com">Pico</a> ✖ <a href="https://github.com/saalimon">Saalimon</a></small>
         </footer>
     </div>
   );
