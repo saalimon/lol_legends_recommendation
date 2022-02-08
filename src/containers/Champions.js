@@ -37,7 +37,7 @@ function Champions() {
                                                             backgroundImage: `url(${url})` ,
                                                             width: '48px',
                                                             height: '48px',
-                                                            backgroundPosition: `-${x}px ${y}px`,
+                                                            backgroundPosition: `-${x}px -${y}px`,
                                                             }}>
                             </div>
                             {key}
