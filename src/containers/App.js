@@ -12,24 +12,48 @@ function App() {
         </header >
         <main className="container">
         <div className="grid">
-                <div className="grid">
+                <div className="grid blue picks" style={{
+                                                          backgroundColor: '#0a4264',
+                                                          padding: '10px',
+                                                          textAlign: 'center',
+                                                          textTransform: 'uppercase',
+                                                          fontSize: '15px'
+                }}>
                     {[...Array(5)].map((x, i) =>
                       <div><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg" alt="Aatrox"/><span class="name">Aatrox</span></div>
                     )}  
                 </div>
-                <div className="grid">
+                <div className="grid red picks" style={{
+                                                          backgroundColor: '#be2038',
+                                                          padding: '10px',
+                                                          textAlign: 'center',
+                                                          textTransform: 'uppercase',
+                                                          fontSize: '15px'
+                }}>
                     {[...Array(5)].map((x, i) =>
                       <div><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg" alt="Aatrox"/><span class="name">Aatrox</span></div>
                     )}  
                 </div>
           </div>
           <div className="grid">
-                <div className="grid">
+                <div className="grid blue picks" style={{
+                                                          backgroundColor: '#0a4264',
+                                                          padding: '10px',
+                                                          textAlign: 'center',
+                                                          textTransform: 'uppercase',
+                                                          fontSize: '15px'
+                }}>
                     {[...Array(5)].map((x, i) =>
                       <div><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg" alt="Aatrox"/><span class="name">Aatrox</span></div>
                     )}  
                 </div>
-                <div className="grid">
+                <div className="grid red picks" style={{
+                                                          backgroundColor: '#be2038',
+                                                          padding: '10px',
+                                                          textAlign: 'center',
+                                                          textTransform: 'uppercase',
+                                                          fontSize: '15px'
+                }}>
                     {[...Array(5)].map((x, i) =>
                       <div><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg" alt="Aatrox"/><span class="name">Aatrox</span></div>
                     )}  

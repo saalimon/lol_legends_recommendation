@@ -18,8 +18,8 @@ function Champions() {
         return null;
     }
     return(
-        <div>
-
+        <div style={{marginTop: '10px'}}>
+            <input type="text" id="search" name="search" placeholder="search" required></input>
             {Object.keys(champion).map(key => {
                 let url = 'https://ddragon.leagueoflegends.com/cdn/12.3.1/img/sprite/'+champion[key]['image']['sprite']
                 let x  = champion[key]['image']['x']
