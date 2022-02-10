@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 function Champions() {
     const [champion, setData] = useState([]);
     useEffect(() => {
-        fetch('http://ddragon.leagueoflegends.com/cdn/12.3.1/data/en_US/champion.json')
+        fetch('https://ddragon.leagueoflegends.com/cdn/12.3.1/data/en_US/champion.json')
         .then(response => {
             if(response.ok){
                 return response.clone().json()
